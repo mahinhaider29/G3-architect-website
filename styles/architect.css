@@ -256,15 +256,16 @@ footer{
             gap: 10px;
       }
       .sponsor-img-container{
-            display: grid;
-            grid-template-columns: repeat(3,1fr);
+             display: grid;
+            grid-template-columns: repeat(3,1fr); 
             row-gap: 20px;
+            
       }
       .sponsor-img-container > img{
             width: 70%;
 
 
-      }
+      } 
 }
 @media screen and (min-width:577px) and (max-width:992px) {
       header{
@@ -279,13 +280,12 @@ footer{
       width: 100%;
 }
 .card-container{
-      display: grid;
+       display: grid;
       grid-template-columns: repeat(2,1fr);
-      gap: 10px;
+      gap: 10px; 
+      
 }
-       
 }
-
 
 
 
